@@ -1,0 +1,65 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes >
+          remark-mdxjs > @babel/core > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs >
+          @babel/core > lodash
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes >
+          remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs >
+          @babel/core > @babel/helper-module-transforms > lodash
+    - gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > gatsby-plugin-typescript > @babel/preset-typescript >
+          @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+    - docz > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby-plugin-typescript > @babel/preset-typescript >
+          @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-replace-supers > @babel/traverse > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-plugin-typescript >
+          @babel/preset-typescript > @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-replace-supers > @babel/traverse > lodash
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2023-12-19T20:16:17.178Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-plugin-typescript >
+          @babel/preset-typescript > @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-function-name > @babel/helper-get-function-arity >
+          @babel/types > lodash
