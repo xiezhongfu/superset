@@ -51,7 +51,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-prompt-toolkit==3.0.8
+prompt-toolkit==3.0.13
     # via ipython
 ptyprocess==0.6.0
     # via pexpect
