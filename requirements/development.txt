@@ -16,7 +16,7 @@ botocore==1.19.10
     #   s3transfer
 cached-property==1.5.2
     # via tableschema
-certifi==2020.6.20
+certifi==2023.7.22
     # via requests
 deprecated==1.2.11
     # via pygithub
@@ -42,7 +42,7 @@ mysqlclient==1.4.2.post1
     # via -r requirements/development.in
 openpyxl==3.0.5
     # via tabulator
-pillow==7.2.0
+pillow==10.2.0
     # via -r requirements/development.in
 psycopg2-binary==2.8.5
     # via -r requirements/development.in
@@ -52,7 +52,7 @@ pygithub==1.54.1
     # via -r requirements/development.in
 pyhive[hive]==0.6.3
     # via -r requirements/development.in
-requests==2.24.0
+requests==2.31.0
     # via
     #   pydruid
     #   pygithub
@@ -88,3 +88,5 @@ xlrd==1.2.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.18 # not directly required, pinned by Snyk to avoid a vulnerability
