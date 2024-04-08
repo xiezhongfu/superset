@@ -113,7 +113,7 @@ graphlib-backport==1.0.3
     # via apache-superset
 gunicorn==20.0.4
     # via apache-superset
-holidays==0.10.3
+holidays==0.45
     # via apache-superset
 humanize==3.1.0
     # via apache-superset
