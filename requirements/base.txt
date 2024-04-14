@@ -117,7 +117,7 @@ holidays==0.10.3
     # via apache-superset
 humanize==3.1.0
     # via apache-superset
-idna==2.10
+idna==3.7
     # via
     #   email-validator
     #   yarl
