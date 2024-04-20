@@ -1,0 +1,36 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template > @babel/types > lodash:
+        patched: '2024-04-20T07:36:42.352Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template >
+          @babel/types > lodash
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2024-04-20T07:36:42.352Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes >
+          remark-mdxjs > @babel/core > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2024-04-20T07:36:42.352Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs >
+          @babel/core > lodash
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2024-04-20T07:36:42.352Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes >
+          remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2024-04-20T07:36:42.352Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs >
+          @babel/core > @babel/helper-module-transforms > lodash
