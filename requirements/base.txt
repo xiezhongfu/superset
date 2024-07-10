@@ -301,7 +301,7 @@ wtforms==2.3.3
     #   wtforms-json
 yarl==1.6.2
     # via aiohttp
-zipp==3.4.1
+zipp==3.19.1
     # via
     #   -r requirements/base.in
     #   importlib-metadata
