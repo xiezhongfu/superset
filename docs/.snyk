@@ -1,0 +1,129 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby > gatsby-plugin-page-creator > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > @babel/template >
+          @babel/types > lodash
+    - docz > docz-core > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > docz-core > docz-utils > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > rehype-docz > docz-utils > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > babel-eslint > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - docz > gatsby > babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > babel-eslint > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-plugin-page-creator >
+          @babel/traverse > @babel/helper-function-name > @babel/types > lodash
+    - docz > gatsby > gatsby-plugin-page-creator > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-plugin-page-creator > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes >
+          remark-mdxjs > @babel/core > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs >
+          @babel/core > lodash
+    - gatsby-theme-docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > @babel/core >
+          @babel/helper-module-transforms > @babel/traverse >
+          @babel/helper-function-name > @babel/types > lodash
+    - docz > gatsby > @babel/core > @babel/helper-module-transforms > @babel/traverse > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > @babel/core > @babel/helper-module-transforms >
+          @babel/traverse > @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-cli > gatsby-recipes >
+          remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash
+    - docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs > @babel/core > @babel/helper-module-transforms > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > gatsby-cli > gatsby-recipes > remark-mdxjs >
+          @babel/core > @babel/helper-module-transforms > lodash
+    - gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > babel-plugin-export-metadata > @babel/preset-env >
+          @babel/plugin-transform-async-to-generator >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > gatsby > gatsby-plugin-typescript > @babel/preset-typescript > @babel/plugin-transform-typescript > @babel/helper-create-class-features-plugin > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > gatsby-plugin-typescript >
+          @babel/preset-typescript > @babel/plugin-transform-typescript >
+          @babel/helper-create-class-features-plugin >
+          @babel/helper-function-name > @babel/types > lodash
+    - docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > @babel/generator > @babel/types > lodash
+    - docz > docz-core > load-cfg > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          docz > docz-core > load-cfg > @babel/preset-env >
+          @babel/plugin-transform-async-to-generator >
+          @babel/helper-remap-async-to-generator > @babel/helper-wrap-function >
+          @babel/helper-function-name > @babel/types > lodash
+    - gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env > @babel/plugin-transform-classes > @babel/helper-replace-supers > @babel/traverse > @babel/generator > @babel/types > lodash:
+        patched: '2024-07-27T07:58:09.029Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          gatsby-theme-docz > gatsby > babel-preset-gatsby > @babel/preset-env >
+          @babel/plugin-transform-classes > @babel/helper-replace-supers >
+          @babel/traverse > @babel/generator > @babel/types > lodash
