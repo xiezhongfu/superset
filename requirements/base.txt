@@ -156,7 +156,7 @@ marshmallow-enum==1.5.1
     # via flask-appbuilder
 marshmallow-sqlalchemy==0.23.1
     # via flask-appbuilder
-marshmallow==3.9.0
+marshmallow==3.26.2
     # via
     #   flask-appbuilder
     #   marshmallow-enum
